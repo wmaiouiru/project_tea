@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "com.wmaiouiru.ingredient";
+option java_outer_classname = "Ingredient";
+
+package ingredient;
+
+message Ingredient {
+  string id = 1; //  id of the ingredient in uuid
+  string name = 2; // name of the ingredient
+  string description = 3; // description of the ingredient
+  string photo_url = 4; // url photo of the ingredient
+  /*
+    TODO consider in the future
+    type // type of the ingredient, this could be another proto or just a string
+    tags // tags of the ingredient to help with grouping
+  */
+}
+
+/*
+  TODO add services
+*/

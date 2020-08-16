@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "com.wmaiouiru.ingredient_purchase_location";
+option java_outer_classname = "IngredientPurcahseLocation";
+
+package ingredientpurchaselocation;
+
+message IngredientPurcahseLocation {
+  string id = 1; //  id of the ingredient purchase location in uuid
+  string name = 2; // name of the ingredient purchase location
+  string type = 3; // type of the ingredient purchase location
+  string description = 4; // description of the ingredient purchase location
+  string url = 5; // url of the ingredient purchase location
+  /*
+    TODO in the future consider moving type to another protobuf
+  */
+}
+
+/*
+  TODO add services
+*/
