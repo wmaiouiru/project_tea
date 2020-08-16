@@ -18,6 +18,36 @@ message Ingredient {
   */
 }
 
-/*
-  TODO add services
-*/
+service IngredientService {
+  rpc CreateIngredient(CreateIngredientRequest) returns (CreateIngredientResponse){};
+  rpc GetIngredient(GetIngredientRequest) returns (GetIngredientResponse){};
+  rpc ListIngredient(ListIngredientRequest) returns (ListIngredientResponse){};
+}
+
+// --- CreateIngredient ---
+
+message CreateIngredientRequest {
+  Ingredient ingredient = 1;
+}
+message CreateIngredientResponse {
+  Ingredient ingredient = 1;
+}
+
+// --- GetIngredient ---
+
+message GetIngredientRequest {
+  string id = 1;
+}
+message GetIngredientResponse {
+  Ingredient ingredient = 1;
+}
+
+// --- ListIngredient ---
+
+message ListIngredientRequest {
+
+}
+message ListIngredientResponse {
+  Ingredient ingredient = 1;
+}
+
