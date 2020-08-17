@@ -24,3 +24,8 @@
 - pypy
 - bazel
 - kafka
+
+
+
+# Notes
+
