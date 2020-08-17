@@ -1,18 +1,5 @@
-# TODO
-- [ ] Create Intredient ProtoBuf
-- [ ] Create Ingredient Purchase Location Protobuf
-- [ ] Create methods
-- [ ] Create tests
-- [ ] Create pylint
-- [ ] Incorporate mypy
-
-
-# Long Term TODO
-- Migrate structure to incorporate java code
-- Run code in pypy
-
-
-
+# Overview
+The goal of this project is to practice different technologies while making some tea!
 
 # Reference Material
 
